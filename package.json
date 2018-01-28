@@ -1,5 +1,5 @@
 {
-  "name": "npm-api",
+  "name": "npm-apis",
   "version": "1.0.0",
   "description": "This module will fetch any NPM module details",
   "main": "index.js",
