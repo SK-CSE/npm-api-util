@@ -11,9 +11,9 @@ this module has two method:
 
 demo of `downloadInfo()` :
 ```js
-var npmAPi = require("npm-api-util")
+const npmApi = require('npm-api-util');
 
-npmAPi.downloadInfo('utility-pro',(err,data)=>{
+npmApi.downloadInfo('utility-pro',(err,data)=>{
   if(err){
     console.error(err);
   }else{
@@ -31,7 +31,9 @@ npmAPi.downloadInfo('utility-pro',(err,data)=>{
 ```
 demo of `packageInfo()` :
 ```js
-npmAPi.packageInfo('utility-pro',(err,data)=>{
+const npmApi = require('npm-api-util');
+
+npmApi.packageInfo('utility-pro',(err,data)=>{
   if(err){
     console.error(err);
   }else{
